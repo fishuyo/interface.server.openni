@@ -1,0 +1,25 @@
+{
+  "name": "interface.server.openni",
+  "version": "0.0.0",
+  "description": "Node.js openni plugin",
+  "gypfile": true,
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "openni": "git://github.com/whytheplatypus/node-openni.git"
+  },
+  "main": "openni.js",
+  "repository": {
+    "type": "git",
+    "url": "git@spectrum.mat.ucsb.edu:openni-node-module.git"
+  },
+  "keywords": [
+    "interface",
+    "server",
+    "openni",
+    "tracking"
+  ],
+  "author": "Tim Wood",
+  "license": "MIT"
+}
